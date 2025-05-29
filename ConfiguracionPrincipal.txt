@@ -1,0 +1,9 @@
+zone "grupoX.local" {
+    type master;
+    file "/etc/bind/zona.grupoX.local.db";
+};
+
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zona.192.168.1.rev";
+};
