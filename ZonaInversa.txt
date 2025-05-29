@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ns1.grupoX.local. admin.grupoX.local. (
+                              2025052801 ; Número de serie
+                                   604800 ; Refresh
+                                    86400 ; Retry
+                                  2419200 ; Expire
+                                   604800 ) ; Negative Cache TTL
+
+        IN      NS      ns1.grupoX.local.
+
+34      IN      PTR     ns1.grupoX.local.
+35      IN      PTR     pc1.grupoX.local.
