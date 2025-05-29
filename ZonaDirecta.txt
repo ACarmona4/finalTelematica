@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ns1.grupoX.local. admin.grupoX.local. (
+                              2025052801 ; Número de serie para control de versiones
+                                   604800 ; Tiempo para que los secundarios revisen cambios
+                                    86400 ; Intervalo para reintentos
+                                  2419200 ; Tiempo que el registro es válido antes de expirar
+                                   604800 ) ; TTL para respuestas negativas (sin datos)
+
+        IN      NS      ns1.grupoX.local.
+
+ns1     IN      A       192.168.1.34
+pc1     IN      A       192.168.1.35
